@@ -53,21 +53,20 @@ Identify and remove duplicate rows.
 
 ---
 
-### 6. Clean Individual Columns
-
-- Remove extra spaces
-- Fix inconsistent values
-- Convert data types
-- Standardize text
-
----
-
-### 7. Handle Missing Values (NaN)
+### 6. Handle Missing Values (NaN)
 
 - Drop missing values
 - Fill using Mean
 - Fill using Median
 - Fill using Mode
+
+
+### 7. Clean Individual Columns
+
+- Remove extra spaces
+- Fix inconsistent values
+- Convert data types
+- Standardize text
 
 ---
 
