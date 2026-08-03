@@ -35,7 +35,7 @@
 
 ## 🧹 Data Cleaning
 
-### 4. Drop Redundant Columns
+### 4. Cleaning column names
 
 Remove unnecessary columns from the dataset.
 
@@ -47,13 +47,13 @@ Rename columns to improve readability and consistency.
 
 ---
 
-### 6. Remove Duplicate Records
+### 5. Remove Duplicate Records
 
 Identify and remove duplicate rows.
 
 ---
 
-### 7. Clean Individual Columns
+### 6. Clean Individual Columns
 
 - Remove extra spaces
 - Fix inconsistent values
@@ -62,7 +62,7 @@ Identify and remove duplicate rows.
 
 ---
 
-### 8. Handle Missing Values (NaN)
+### 7. Handle Missing Values (NaN)
 
 - Drop missing values
 - Fill using Mean
@@ -71,7 +71,7 @@ Identify and remove duplicate rows.
 
 ---
 
-### 9. Data Transformation
+### 8. Data Transformation
 
 - Feature Engineering
 - Encoding
@@ -81,7 +81,7 @@ Identify and remove duplicate rows.
 
 ---
 
-### 10. Final Dataset Verification
+### 9. Final Dataset Verification
 
 - Check Missing Values
 - Check Duplicate Records
@@ -89,7 +89,7 @@ Identify and remove duplicate rows.
 
 ---
 
-### 11. Save the Cleaned Dataset
+### 10. Save the Cleaned Dataset
 
 Export the cleaned dataset as a CSV file.
 
