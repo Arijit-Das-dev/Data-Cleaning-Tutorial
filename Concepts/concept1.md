@@ -55,10 +55,27 @@ Identify and remove duplicate rows.
 
 ### 6. Handle Missing Values (NaN)
 
-- Drop missing values
-- Fill using Mean
-- Fill using Median
-- Fill using Mode
+## 6. Handle Missing Values (NaN)
+
+### Step 1: Analyze Missing Values
+- Count missing values in each column.
+- Calculate the missing percentage.
+- If missing percentage **≥ 50%**, drop the column.
+
+### Step 2: Handle Numeric Columns
+- **Symmetric distribution (Mean ≈ Median)** → Fill with **Mean**.
+- **Skewed distribution / Outliers present (Mean ≠ Median)** → Fill with **Median**.
+
+### Step 3: Handle Categorical Columns
+- **Missing < 5–10%** → Fill with **Mode (Most Frequent Value)**.
+- **Missing ≥ 5–10%**
+  - If the column is **important**, keep missing values for further analysis.
+  - Otherwise, replace missing values with **"Unknown"**.
+
+### How to Identify Outliers or Skewness?
+- Compare the **Mean** and **Median**.
+- **Small difference** → Likely symmetric → Use **Mean**.
+- **Large difference** → Likely skewed / contains outliers → Use **Median**.
 
 
 ### 7. Clean Individual Columns
