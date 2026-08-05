@@ -17,7 +17,6 @@
 
 - Read the CSV file
 - Handle encoding issues (if any)
-- Display the first five rows
 
 ---
 
