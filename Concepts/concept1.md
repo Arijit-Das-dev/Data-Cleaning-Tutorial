@@ -36,7 +36,9 @@
 
 ### 4. Cleaning column names
 
-Remove unnecessary columns from the dataset.
+- Remove special characters
+- Remove spaces
+- Clean more if needed
 
 ---
 
