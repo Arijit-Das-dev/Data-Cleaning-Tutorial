@@ -54,8 +54,6 @@ Identify and remove duplicate rows.
 
 ---
 
-### 6. Handle Missing Values (NaN)
-
 ## 6. Handle Missing Values (NaN)
 
 ### Step 1: Analyze Missing Values
