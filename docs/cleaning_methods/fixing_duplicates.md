@@ -1,6 +1,6 @@
 # FIXING DUPLICATE COLUMNS
 
-#### Check :
+### Check :
 
 Code :
 ```python
@@ -9,7 +9,7 @@ duplicated = df['column'].duplicated() # Returns duplicates as True in columns
 df.loc[duplicated, 'column']           # Returns values which is duplicate
 ```
 
-#### Fix :
+### Fix :
 
 Code :
 ```python
