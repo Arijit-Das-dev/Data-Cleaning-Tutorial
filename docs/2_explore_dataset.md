@@ -85,7 +85,8 @@ df.loc[duplicated, 'column']                            # This returns duplicate
 ```
 ---
 
-### 7. Unique values : 
+### 7. Unique values :
+
 - Returns unique values in each columns.
 
 Code:
