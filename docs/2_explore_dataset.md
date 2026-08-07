@@ -8,7 +8,8 @@
 - Summary Statistics
 - Missing Values
 - Duplicate Records
-- Unique Values
+- Unique records
+
 ---
 
 ### 1. Dataset shape :
@@ -17,6 +18,7 @@
 
 Code:
 ```python
+
 rows = df.shape[0]      # Returns number of rows
 columns = df.shape[1]   # Returns number of columns
 ```
@@ -28,6 +30,7 @@ columns = df.shape[1]   # Returns number of columns
 
 Code:
 ```python
+
 info = df.info()    # information of the dataset
 ```
 ---
@@ -39,16 +42,47 @@ info = df.info()    # information of the dataset
 
 Code:
 ```python
+
 print(df.dtypes)            # Whole dataframe's data type
 print(df[columns].dtypes)   # Specific column's data type
 ```
 ---
 
-### 4. Summary statistics
+### 4. Summary statistics :
 
 - Returns number of rows , minimum value, maximum value, mean, standard daviation, total , Q1(0.25) Q3(0.75) percentile.
 
 Code:
 ```python
+
 stats = df.describe()       # Summary statistics
+```
+---
+
+### 5. Missing values :
+
+- Returns missing values in each columns.
+
+Code:
+```python
+
+total_missing_values = df.isnull().sum()                              # Returns total missing values in each column
+missing_pct = (total_missing_values/total_missing_values.sum())*100   # Returns percentage of missing values in each columns
+```
+---
+
+### 6. Duplicate values :
+
+- Returns total duplicate values in each columns.
+
+Code:
+```python
+
+duplicated = df['column'].duplicated()                  # This returns True and False in specific column (True = Duplicates, False = Unique)
+
+print("Total duplicate values : ", duplicated.sum())    # This returns total number of duplicate values
+df.loc[duplicated, 'column']                            # This returns duplicated values in specific column
+
+unqiue = df['column'].unique()                          # This returns unqiue values in specific column
+print("Total unique values : ", df['column'].nunique()) # This returns total number of unique values
 ```
