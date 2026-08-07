@@ -1,6 +1,6 @@
 # FIXING COLUMN NAMES
 
-### Identify errors in each column names
+### Identify errors in each column names :
 - Check for special characters
 - Check for spaces
 - Check for digits
@@ -20,7 +20,6 @@ print(df.columns[df.columns != df.columns.str.lower()])       # Checks if a colu
 
 special_chars = "!@#$%^&*()+-=[]{}|;':\",./<>?`~\\"
 
-# Removes special characters
 for chars in special_chars:
     df.columns = df.columns.str.replace(chars, "")  # Removes special characters
 
