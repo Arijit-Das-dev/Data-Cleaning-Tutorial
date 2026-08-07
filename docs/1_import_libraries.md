@@ -1,9 +1,3 @@
-# 🧹 Data Cleaning Methods
-
----
-
-## 📌 Things To Be Done
-
 ### 1. Import Required Libraries
 
 - Import Pandas
