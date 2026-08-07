@@ -14,7 +14,7 @@
        
 - Returns number of rows and columns.
 
-- Code :
+Code :
 ```python
 rows = df.shape[0]
 columns = df.shape[1]
