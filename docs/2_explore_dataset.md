@@ -82,6 +82,14 @@ duplicated = df['column'].duplicated()                  # This returns True and 
 
 print("Total duplicate values : ", duplicated.sum())    # This returns total number of duplicate values
 df.loc[duplicated, 'column']                            # This returns duplicated values in specific column
+```
+---
+
+### 7. Unique values : 
+- Returns unique values in each columns.
+
+Code:
+```python
 
 unqiue = df['column'].unique()                          # This returns unqiue values in specific column
 print("Total unique values : ", df['column'].nunique()) # This returns total number of unique values
