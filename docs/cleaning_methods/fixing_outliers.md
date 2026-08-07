@@ -4,6 +4,7 @@
 - IQR method is the best way to fix outliers
 - IQR (Inter Quartile Range) provides a range which gives a position of middle 50% of the data. 
 
+## Steps
 #### Step 1 :
 - Get the (Q1) 25 percentile,
 - Get the (Q2) 75 percentile,
@@ -24,7 +25,7 @@ lower = Q1 - IQR * 1.5
 ```
 ---
 
-### Check for outliers
+## Check for outliers
 
 Code :
 
@@ -42,7 +43,7 @@ df[df['column'] > upper_limit]      # values which is greater than upper limit a
 df[df['column'] < lower_limit]      # values which is lesser than lower limit are outliers
 ```
 
-### Fix
+## Fix
 
 Code :
 
