@@ -5,7 +5,7 @@
 Code :
 ```python
 
-duplicated = df['column'].duplicated() # Returns duplicates as True in columns
+duplicated_mask = df['column'].duplicated() # Returns duplicates as True in columns
 df.loc[duplicated, 'column']           # Returns values which is duplicate
 ```
 
