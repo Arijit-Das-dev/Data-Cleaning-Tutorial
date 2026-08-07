@@ -28,14 +28,6 @@
 
 ## 🧹 Data Cleaning
 
-### 4. Cleaning column names
-
-- Remove special characters
-- Remove spaces
-- Clean more if needed
-
----
-
 ### 5. Rename Columns
 
 Rename columns to improve readability and consistency.

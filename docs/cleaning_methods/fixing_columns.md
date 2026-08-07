@@ -27,3 +27,12 @@ df.columns = df.columns.str.strip()                 # Removes spaces
 df.columns = df.columns.str.lower()                 # Converts to lower case
 df.columns = df.columns.str.replace(r'[0-9]', "")   # Removes digits
 ```
+
+```python
+# Renaming column names
+df.columns = df.columns.rename(
+    {
+        "columnn":"column"
+    }
+)
+```
