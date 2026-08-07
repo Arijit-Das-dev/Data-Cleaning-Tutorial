@@ -1,11 +1,6 @@
-### 2. Load the Dataset
+# Explore dataset
 
-- Read the CSV file
-- Handle encoding issues (if any)
-
----
-
-### 3. Explore the Dataset
+## Things to explore -
 
 - Dataset Shape
 - Dataset Information
@@ -15,4 +10,6 @@
 - Duplicate Records
 - Unique Values
 
----
+### 1. Dataset shape :
+       
+- Returns number of rows and columns.
