@@ -9,6 +9,7 @@
 - Missing Values
 - Duplicate Records
 - Unique Values
+---
 
 ### 1. Dataset shape :
        
@@ -16,9 +17,10 @@
 
 Code:
 ```python
-rows = df.shape[0]
-columns = df.shape[1]
+rows = df.shape[0]      # Returns number of rows
+columns = df.shape[1]   # Returns number of columns
 ```
+---
 
 ### 2. Dataset information :
 
@@ -26,8 +28,9 @@ columns = df.shape[1]
 
 Code:
 ```python
-info = df.info()
+info = df.info()    # information of the dataset
 ```
+---
 
 ### 3. Data type :
 
@@ -35,7 +38,17 @@ info = df.info()
 - Data types = Object, int64, float64 etc..
 
 Code:
-```
+```python
 print(df.dtypes)            # Whole dataframe's data type
 print(df[columns].dtypes)   # Specific column's data type
+```
+---
+
+### 4. Summary statistics
+
+- Returns number of rows , minimum value, maximum value, mean, standard daviation, total , Q1(0.25) Q3(0.75) percentile.
+
+Code:
+```python
+stats = df.describe()       # Summary statistics
 ```
