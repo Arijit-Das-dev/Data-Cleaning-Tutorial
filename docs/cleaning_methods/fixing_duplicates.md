@@ -6,7 +6,7 @@ Code :
 ```python
 
 duplicated_mask = df['column'].duplicated() # Returns duplicates as True in columns
-df.loc[duplicated, 'column']           # Returns values which is duplicate
+df.loc[duplicated, 'column']                # Returns values which is duplicate
 ```
 
 ### Fix :
@@ -14,5 +14,5 @@ df.loc[duplicated, 'column']           # Returns values which is duplicate
 Code :
 ```python
 
-df.drop_duplicates(subset=['column'], inplace=True)     # Drops duplicate rows
+df.drop_duplicates(subset=['column'], inplace=True)  # Drops duplicate rows
 ```
