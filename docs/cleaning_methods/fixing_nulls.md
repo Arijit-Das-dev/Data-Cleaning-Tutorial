@@ -20,4 +20,8 @@ We have to follow some steps to fix null values.
     - Get median
 
         - Get their difference (mean - median) or (median - mean)
-        
+        - If mean and median is approximately same then use mean.
+        - Else :
+            - Check for outliers (Use box plots)
+            - If outliers present then use median
+            - Else use mean
