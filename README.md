@@ -1,11 +1,26 @@
 # 🧹 Data Cleaning Techniques using Python
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python">
-  <img src="https://img.shields.io/badge/Pandas-Data%20Cleaning-green?style=for-the-badge&logo=pandas">
-  <img src="https://img.shields.io/badge/Data%20Analysis-Learning-orange?style=for-the-badge">
-  <img src="https://img.shields.io/github/license/Arijit-Das-dev/Data-Cleaning-Tutorial?style=for-the-badge">
-</p>
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
+       width="90"
+       title="NumPy">
+
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg"
+       width="90"
+       title="Pandas">
+
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg"
+       width="90"
+       title="Matplotlib">
+
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/seaborn/seaborn-original.svg"
+       width="90"
+       title="Seaborn">
+
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg"
+       width="90"
+       title="Scikit-learn">
+</div>
 
 ---
 
