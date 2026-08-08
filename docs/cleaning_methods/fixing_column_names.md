@@ -18,14 +18,13 @@ print(df.columns[df.columns != df.columns.str.lower()])       # Checks if a colu
 ### Fix :
 ```python
 
-special_chars = "!@#$%^&*()+-=[]{}|;':\",./<>?`~\\"
-
-for chars in special_chars:
-    df.columns = df.columns.str.replace(chars, "")  # Removes special characters
-
-df.columns = df.columns.str.strip()                 # Removes spaces
-df.columns = df.columns.str.lower()                 # Converts to lower case
-df.columns = df.columns.str.replace(r'[0-9]', "")   # Removes digits
+df.columns = (
+    df.columns
+    .str.lower()
+    .str.strip()
+    .str.replace(' ', '_')
+    .str.replace(r'[^A-Za-z_]', '', regex = True)
+)
 ```
 
 ```python
