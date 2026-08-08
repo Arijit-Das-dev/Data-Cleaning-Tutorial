@@ -7,4 +7,17 @@ We fix nulls based on the type of data. There are basically two different type o
 ## For Integer type column
 We have to follow some steps to fix null values.
 
-**Steps :**
+### Steps -
+
+**Step 1 :**
+- Check how many null values are present.
+- Calculate percentage of null values.
+
+**Step 2:**
+- If null percentage >= 50 %, drop that column if it is not important.
+- Else :
+    - Get mean (average)
+    - Get median
+
+        - Get their difference (mean - median) or (median - mean)
+        
